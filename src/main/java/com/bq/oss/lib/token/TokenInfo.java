@@ -1,18 +1,13 @@
-/*
- * Copyright (C) 2014 StarTIC
- */
 package com.bq.oss.lib.token;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
+import com.google.gson.*;
 import org.apache.commons.lang3.Validate;
 
 import com.bq.oss.lib.token.model.TokenType;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import com.google.gson.JsonParser;
-import com.google.gson.JsonPrimitive;
 
 /**
  * @author Alexander De Leon
@@ -27,6 +22,7 @@ public class TokenInfo {
     private static final String ONE_USE = "isOneUse";
     private static final String STATE = "state";
     private static final String DOMAIN_ID = "domainId";
+    private static final String GROUPS = "groups";
 
     private final JsonObject data;
 
@@ -74,6 +70,10 @@ public class TokenInfo {
         return getAsString(DOMAIN_ID);
     }
 
+    public List<String> getGroups() {
+        return getAsArrayOfStrings(GROUPS);
+    }
+
     public boolean isOneUseToken() {
         Boolean val = getAsBoolean(ONE_USE);
         return val != null ? val : false;
@@ -103,6 +103,16 @@ public class TokenInfo {
 
     private Boolean getAsBoolean(String key) {
         return data.has(key) ? data.get(key).getAsBoolean() : null;
+    }
+
+    private List<String> getAsArrayOfStrings(String key) {
+        List<String> groups = new ArrayList<>();
+        if(data.has(key)) {
+            for(JsonElement group : data.get(key).getAsJsonArray()) {
+                groups.add(group.getAsString());
+            }
+        }
+        return groups;
     }
 
     public static class Builder {
@@ -144,6 +154,13 @@ public class TokenInfo {
 
         public Builder setDomainId(String domainId) {
             data.add(DOMAIN_ID, new JsonPrimitive(domainId));
+            return this;
+        }
+
+        public Builder setGroups(List<String> groups) {
+            JsonArray jsonArray = new JsonArray();
+            groups.stream().forEach(group -> jsonArray.add(new JsonPrimitive(group)));
+            data.add(GROUPS, jsonArray);
             return this;
         }
 

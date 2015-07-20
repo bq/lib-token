@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2014 StarTIC
- */
 package com.bq.oss.lib.token.reader;
 
 import com.bq.oss.lib.token.TokenInfo;

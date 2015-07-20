@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2014 StarTIC
- */
 package com.bq.oss.lib.token.signer;
 
 import java.nio.charset.StandardCharsets;

@@ -24,7 +24,6 @@ import com.bq.oss.lib.token.verifier.TokenVerifier;
 @Configuration
 public class TokenIoc {
 
-	/* -------------- Token basic Verifiers ------------- */
 	@Bean
 	public ExpirationTokenVerifier expireTokenVerifier() {
 		return new ExpirationTokenVerifier();
@@ -34,8 +33,6 @@ public class TokenIoc {
 	public SignatureTokenVerifier signatureTokenVerifier(TokenSigner signer, TokenSerializer serializer) {
 		return new SignatureTokenVerifier(signer, serializer);
 	}
-
-	/* -------------- ------------- */
 
 	@Bean
 	public TokenSerializer tokenSerializer() {

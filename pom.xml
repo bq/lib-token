@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.corbel.lib</groupId>
+  <groupId>com.bq.corbel.lib</groupId>
   <artifactId>token</artifactId>
   <version>0.9.0</version>
   <name>lib-token</name>
   <description>Authentication tokens Library</description>
-  <url>https://github.com/corbel-platform/lib-token</url>
+  <url>https://github.com/bq/lib-token</url>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -24,7 +24,7 @@
   <scm>
     <connection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/lib-token</connection>
     <developerConnection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/lib-token</developerConnection>
-    <url>https://github.com/corbel-platform/lib-token</url>
+    <url>https://github.com/bq/lib-token</url>
     <tag>token-0.9.0</tag>
   </scm>
   <distributionManagement>
@@ -42,7 +42,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>io.corbel.lib</groupId>
+      <groupId>com.bq.corbel.lib</groupId>
       <artifactId>mongodb</artifactId>
       <version>0.7.0</version>
     </dependency>
@@ -137,10 +137,10 @@
   </profiles>
   <ciManagement>
     <system>Travis CI</system>
-    <url>https://travis-ci.org/corbel-platform/lib-token</url>
+    <url>https://travis-ci.org/bq/lib-token</url>
   </ciManagement>
   <issueManagement>
-    <url>https://github.com/corbel-platform/lib-token/issues</url>
+    <url>https://github.com/bq/lib-token/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
   <developers>

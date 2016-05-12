@@ -1,8 +1,8 @@
-package io.corbel.lib.token.verifier;
+package com.bq.corbel.lib.token.verifier;
 
-import io.corbel.lib.token.exception.TokenVerificationException;
-import io.corbel.lib.token.reader.TokenReader;
-import io.corbel.lib.token.repository.OneTimeAccessTokenRepository;
+import com.bq.corbel.lib.token.exception.TokenVerificationException;
+import com.bq.corbel.lib.token.reader.TokenReader;
+import com.bq.corbel.lib.token.repository.OneTimeAccessTokenRepository;
 
 /**
  * @author Alberto J. Rubio

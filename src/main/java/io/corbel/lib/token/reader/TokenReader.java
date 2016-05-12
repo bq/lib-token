@@ -1,6 +1,6 @@
-package io.corbel.lib.token.reader;
+package com.bq.corbel.lib.token.reader;
 
-import io.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.TokenInfo;
 
 /**
  * @author Alexander De Leon

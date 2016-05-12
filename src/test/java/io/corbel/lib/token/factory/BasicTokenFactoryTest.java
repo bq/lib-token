@@ -1,4 +1,4 @@
-package io.corbel.lib.token.factory;
+package com.bq.corbel.lib.token.factory;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -12,11 +12,11 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Before;
 import org.junit.Test;
 
-import io.corbel.lib.token.TokenGrant;
-import io.corbel.lib.token.TokenInfo;
-import io.corbel.lib.token.repository.OneTimeAccessTokenRepository;
-import io.corbel.lib.token.serializer.TokenSerializer;
-import io.corbel.lib.token.signer.TokenSigner;
+import com.bq.corbel.lib.token.TokenGrant;
+import com.bq.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.repository.OneTimeAccessTokenRepository;
+import com.bq.corbel.lib.token.serializer.TokenSerializer;
+import com.bq.corbel.lib.token.signer.TokenSigner;
 
 /**
  * @author Francisco Sanchez

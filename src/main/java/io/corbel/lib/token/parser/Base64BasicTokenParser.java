@@ -1,17 +1,17 @@
-package io.corbel.lib.token.parser;
+package com.bq.corbel.lib.token.parser;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.List;
 
-import io.corbel.lib.token.TokenInfo;
-import io.corbel.lib.token.exception.TokenVerificationException;
-import io.corbel.lib.token.serializer.Base64TokenSerializer;
-import io.corbel.lib.token.verifier.TokenVerifier;
+import com.bq.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.exception.TokenVerificationException;
+import com.bq.corbel.lib.token.serializer.Base64TokenSerializer;
+import com.bq.corbel.lib.token.verifier.TokenVerifier;
 import org.apache.commons.lang3.Validate;
 
-import io.corbel.lib.token.reader.TokenReader;
+import com.bq.corbel.lib.token.reader.TokenReader;
 
 /**
  * @author Alexander De Leon

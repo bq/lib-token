@@ -1,8 +1,8 @@
-package io.corbel.lib.token;
+package com.bq.corbel.lib.token;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 
-import io.corbel.lib.token.model.TokenType;
+import com.bq.corbel.lib.token.model.TokenType;
 import org.junit.Test;
 
 import java.util.Arrays;

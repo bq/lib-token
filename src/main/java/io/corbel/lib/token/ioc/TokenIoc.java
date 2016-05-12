@@ -1,22 +1,22 @@
-package io.corbel.lib.token.ioc;
+package com.bq.corbel.lib.token.ioc;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import io.corbel.lib.token.signer.TokenSigner;
+import com.bq.corbel.lib.token.signer.TokenSigner;
 import org.springframework.beans.factory.BeanCreationException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import io.corbel.lib.token.parser.Base64BasicTokenParser;
-import io.corbel.lib.token.parser.TokenParser;
-import io.corbel.lib.token.serializer.Base64TokenSerializer;
-import io.corbel.lib.token.serializer.TokenSerializer;
-import io.corbel.lib.token.signer.HmacSha1TokenSigner;
-import io.corbel.lib.token.verifier.ExpirationTokenVerifier;
-import io.corbel.lib.token.verifier.SignatureTokenVerifier;
-import io.corbel.lib.token.verifier.TokenVerifier;
+import com.bq.corbel.lib.token.parser.Base64BasicTokenParser;
+import com.bq.corbel.lib.token.parser.TokenParser;
+import com.bq.corbel.lib.token.serializer.Base64TokenSerializer;
+import com.bq.corbel.lib.token.serializer.TokenSerializer;
+import com.bq.corbel.lib.token.signer.HmacSha1TokenSigner;
+import com.bq.corbel.lib.token.verifier.ExpirationTokenVerifier;
+import com.bq.corbel.lib.token.verifier.SignatureTokenVerifier;
+import com.bq.corbel.lib.token.verifier.TokenVerifier;
 
 /**
  * Created by Alberto J. Rubio

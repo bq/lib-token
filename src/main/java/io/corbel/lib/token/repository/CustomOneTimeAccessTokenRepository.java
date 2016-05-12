@@ -1,6 +1,6 @@
-package io.corbel.lib.token.repository;
+package com.bq.corbel.lib.token.repository;
 
-import io.corbel.lib.token.model.OneTimeAccessToken;
+import com.bq.corbel.lib.token.model.OneTimeAccessToken;
 
 /**
  * @author Alberto J. Rubio

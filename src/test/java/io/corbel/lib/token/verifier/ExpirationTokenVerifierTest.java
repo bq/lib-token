@@ -1,13 +1,13 @@
-package io.corbel.lib.token.verifier;
+package com.bq.corbel.lib.token.verifier;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import io.corbel.lib.token.exception.TokenVerificationException;
+import com.bq.corbel.lib.token.exception.TokenVerificationException;
 import org.junit.Before;
 import org.junit.Test;
 
-import io.corbel.lib.token.reader.TokenReader;
+import com.bq.corbel.lib.token.reader.TokenReader;
 
 /**
  * @author Alexander De Leon

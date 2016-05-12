@@ -1,14 +1,14 @@
-package io.corbel.lib.token.ioc;
+package com.bq.corbel.lib.token.ioc;
 
 import java.time.Clock;
 
-import io.corbel.lib.mongo.config.MongoCommonRepositoryFactoryBean;
-import io.corbel.lib.token.factory.BasicTokenFactory;
-import io.corbel.lib.token.factory.TokenFactory;
-import io.corbel.lib.token.repository.OneTimeAccessTokenRepository;
-import io.corbel.lib.token.serializer.TokenSerializer;
-import io.corbel.lib.token.signer.TokenSigner;
-import io.corbel.lib.token.verifier.OneTimeAccessTokenVerifier;
+import com.bq.corbel.lib.mongo.config.MongoCommonRepositoryFactoryBean;
+import com.bq.corbel.lib.token.factory.BasicTokenFactory;
+import com.bq.corbel.lib.token.factory.TokenFactory;
+import com.bq.corbel.lib.token.repository.OneTimeAccessTokenRepository;
+import com.bq.corbel.lib.token.serializer.TokenSerializer;
+import com.bq.corbel.lib.token.signer.TokenSigner;
+import com.bq.corbel.lib.token.verifier.OneTimeAccessTokenVerifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
@@ -18,7 +18,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
  *
  */
 @Configuration
-@EnableMongoRepositories(value = { "io.corbel.lib.token.repository" }, repositoryFactoryBeanClass = MongoCommonRepositoryFactoryBean.class)
+@EnableMongoRepositories(value = { "com.bq.corbel.lib.token.repository" }, repositoryFactoryBeanClass = MongoCommonRepositoryFactoryBean.class)
 public class OneTimeAccessTokenIoc {
 
 	@Bean

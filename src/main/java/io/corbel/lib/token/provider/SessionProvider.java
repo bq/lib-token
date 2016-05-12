@@ -1,4 +1,4 @@
-package io.corbel.lib.token.provider;
+package com.bq.corbel.lib.token.provider;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -22,9 +22,9 @@ import org.glassfish.jersey.server.spi.internal.ValueFactoryProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.corbel.lib.token.exception.TokenVerificationException;
-import io.corbel.lib.token.parser.TokenParser;
-import io.corbel.lib.token.reader.TokenReader;
+import com.bq.corbel.lib.token.exception.TokenVerificationException;
+import com.bq.corbel.lib.token.parser.TokenParser;
+import com.bq.corbel.lib.token.reader.TokenReader;
 import com.google.common.base.Optional;
 
 public class SessionProvider {

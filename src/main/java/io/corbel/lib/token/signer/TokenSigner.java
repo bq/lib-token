@@ -1,4 +1,4 @@
-package io.corbel.lib.token.signer;
+package com.bq.corbel.lib.token.signer;
 
 /**
  * @author Alexander De Leon

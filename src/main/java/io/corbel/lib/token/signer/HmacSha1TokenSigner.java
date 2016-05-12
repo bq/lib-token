@@ -1,4 +1,4 @@
-package io.corbel.lib.token.signer;
+package com.bq.corbel.lib.token.signer;
 
 import java.nio.charset.StandardCharsets;
 import java.security.InvalidKeyException;

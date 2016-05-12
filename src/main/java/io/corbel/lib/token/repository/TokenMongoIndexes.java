@@ -1,15 +1,15 @@
-package io.corbel.lib.token.repository;
+package com.bq.corbel.lib.token.repository;
 
 import java.util.concurrent.TimeUnit;
 
-import io.corbel.lib.mongo.index.MongoIndex;
+import com.bq.corbel.lib.mongo.index.MongoIndex;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.mongodb.core.MongoOperations;
 
-import io.corbel.lib.token.model.OneTimeAccessToken;
+import com.bq.corbel.lib.token.model.OneTimeAccessToken;
 
 /**
  * @author Rubén Carrasco

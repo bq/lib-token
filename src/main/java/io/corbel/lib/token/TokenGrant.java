@@ -1,4 +1,4 @@
-package io.corbel.lib.token;
+package com.bq.corbel.lib.token;
 
 import java.util.Objects;
 

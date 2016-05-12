@@ -1,4 +1,4 @@
-package io.corbel.lib.token.repository;
+package com.bq.corbel.lib.token.repository;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 
-import io.corbel.lib.token.model.OneTimeAccessToken;
+import com.bq.corbel.lib.token.model.OneTimeAccessToken;
 
 /**
  * @author Alberto J. Rubio

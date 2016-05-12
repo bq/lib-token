@@ -1,4 +1,4 @@
-package io.corbel.lib.token.exception;
+package com.bq.corbel.lib.token.exception;
 
 /**
  * @author Alexander De Leon

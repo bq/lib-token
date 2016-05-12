@@ -1,4 +1,4 @@
-package io.corbel.lib.token.parser;
+package com.bq.corbel.lib.token.parser;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -7,15 +7,15 @@ import static org.mockito.Mockito.verify;
 import java.util.Base64;
 import java.util.Collections;
 
-import io.corbel.lib.token.TokenInfo;
-import io.corbel.lib.token.exception.TokenVerificationException;
-import io.corbel.lib.token.model.TokenType;
+import com.bq.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.exception.TokenVerificationException;
+import com.bq.corbel.lib.token.model.TokenType;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import io.corbel.lib.token.reader.TokenReader;
-import io.corbel.lib.token.verifier.TokenVerifier;
+import com.bq.corbel.lib.token.reader.TokenReader;
+import com.bq.corbel.lib.token.verifier.TokenVerifier;
 
 /**
  * @author Alexander De Leon

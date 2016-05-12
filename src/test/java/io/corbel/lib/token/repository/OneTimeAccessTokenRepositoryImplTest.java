@@ -1,4 +1,4 @@
-package io.corbel.lib.token.repository;
+package com.bq.corbel.lib.token.repository;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -7,7 +7,7 @@ import static org.mockito.Mockito.verifyZeroInteractions;
 
 import java.util.Arrays;
 
-import io.corbel.lib.token.model.OneTimeAccessToken;
+import com.bq.corbel.lib.token.model.OneTimeAccessToken;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;

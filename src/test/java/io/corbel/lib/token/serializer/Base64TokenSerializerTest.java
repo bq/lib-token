@@ -1,11 +1,11 @@
-package io.corbel.lib.token.serializer;
+package com.bq.corbel.lib.token.serializer;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import io.corbel.lib.token.TokenInfo;
-import io.corbel.lib.token.signer.TokenSigner;
+import com.bq.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.signer.TokenSigner;
 import org.junit.Before;
 import org.junit.Test;
 

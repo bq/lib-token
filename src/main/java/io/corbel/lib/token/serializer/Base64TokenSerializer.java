@@ -1,10 +1,10 @@
-package io.corbel.lib.token.serializer;
+package com.bq.corbel.lib.token.serializer;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
-import io.corbel.lib.token.TokenInfo;
-import io.corbel.lib.token.signer.TokenSigner;
+import com.bq.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.signer.TokenSigner;
 import com.google.common.base.Joiner;
 
 /**

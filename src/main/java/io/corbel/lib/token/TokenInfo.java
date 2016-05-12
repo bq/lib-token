@@ -1,4 +1,4 @@
-package io.corbel.lib.token;
+package com.bq.corbel.lib.token;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,7 +8,7 @@ import java.util.Objects;
 import com.google.gson.*;
 import org.apache.commons.lang3.Validate;
 
-import io.corbel.lib.token.model.TokenType;
+import com.bq.corbel.lib.token.model.TokenType;
 
 /**
  * @author Alexander De Leon

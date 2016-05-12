@@ -1,4 +1,4 @@
-package io.corbel.lib.token.factory;
+package com.bq.corbel.lib.token.factory;
 
 import java.time.Clock;
 import java.time.Instant;
@@ -6,12 +6,12 @@ import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
 import java.util.Date;
 
-import io.corbel.lib.token.TokenGrant;
-import io.corbel.lib.token.TokenInfo;
-import io.corbel.lib.token.model.OneTimeAccessToken;
-import io.corbel.lib.token.repository.OneTimeAccessTokenRepository;
-import io.corbel.lib.token.serializer.TokenSerializer;
-import io.corbel.lib.token.signer.TokenSigner;
+import com.bq.corbel.lib.token.TokenGrant;
+import com.bq.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.model.OneTimeAccessToken;
+import com.bq.corbel.lib.token.repository.OneTimeAccessTokenRepository;
+import com.bq.corbel.lib.token.serializer.TokenSerializer;
+import com.bq.corbel.lib.token.signer.TokenSigner;
 
 /**
  * @author Francisco Sanchez

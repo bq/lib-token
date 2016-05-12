@@ -1,7 +1,7 @@
-package io.corbel.lib.token.serializer;
+package com.bq.corbel.lib.token.serializer;
 
-import io.corbel.lib.token.TokenInfo;
-import io.corbel.lib.token.signer.TokenSigner;
+import com.bq.corbel.lib.token.TokenInfo;
+import com.bq.corbel.lib.token.signer.TokenSigner;
 
 /**
  * @author Alexander De Leon

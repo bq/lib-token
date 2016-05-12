@@ -1,4 +1,4 @@
-package io.corbel.lib.token.model;
+package com.bq.corbel.lib.token.model;
 
 import java.util.Date;
 import java.util.List;
